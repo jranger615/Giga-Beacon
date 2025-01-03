@@ -95,15 +95,15 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li>Add Under [stepper_z1] :
 <i><b><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop</i></b></li>
 <li>Find the Safe_z_home section and make it as follows:
- <i><b><br />  [safe_z_home]
- <br /> home_xy_position: 405,205
- <br /> # speed: 150
- <br />  z_hop: 3          
- <br /> #z_hop_speed: 5</i></b></li>
- <li> Click Save in the Top Right Corner, then close</li>
- <li>Open moonraker.cfg</li>
- <li>At the End Add the Following:
- <i><b><br />[update_manager beacon]
+<i><b><br />  [safe_z_home]
+<br /> home_xy_position: 405,205
+<br /> # speed: 150
+<br />  z_hop: 3          
+<br /> #z_hop_speed: 5</i></b></li>
+<li> Click Save in the Top Right Corner, then close</li>
+<li>Open moonraker.cfg</li>
+<li>At the End Add the Following:
+<i><b><br />[update_manager beacon]
 <br />type: git_repo
 <br />channel: dev
 <br />path: ~/beacon_klipper
