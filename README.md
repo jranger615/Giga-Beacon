@@ -133,8 +133,8 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <Li>Run the following Command (Or Power off/on your Giga Again - This is usually most effective)
 <br /> systemctl restart klipper</Li> 
 <li>From Fluidd, chose the Command Icon</li>
-<li>Run G28 X Y
-<li>Run G0 X605 Y205 to center it on Bed/li> 
+<li>Run G28 X Y</li>
+<li>Run G0 X605 Y205 to center it on Bed 1 </li> 
 <i><b><br /> BEACON_CALIBRATE</li></i></b>
 <li>You must now run commands and lower your Z like your setting the Z offset with the Supplied Metal Feeler or a Piece of Paper
 <br /> The Command is : TESTZ Z=-0.01  (Lower it as little or increase it to move it down faster until it barely touches the Feeler or Piece  of Paper
