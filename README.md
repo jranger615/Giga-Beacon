@@ -32,10 +32,10 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
  <li>ReMount your Hot End to the Printer</ki>
 </ul>
  
-<h2>Configuration File Modifications</h2>
+<h2>Beacon Install/Configuration File Modifications</h2>
 ***Before you do this, make sure you have your printer turned on and HOME ALL****
 <ul>
-<li>On your Klipper Screen, Click Settings > Advanced Settings > Root</ul>li>
+<li>On your Klipper Screen, Click Settings > Advanced Settings > Root</li>
 <li>Follow the Prompts to Root your Klipper and Allow SSH. Note the Username and PW</li>
 <li>On your Pc Download Putty - https://www.putty.org/ </li>
 <li>Open Putty and under Host Name type in the IP of your Giga. Should be on the right top corner of the Klipper Screen when connected to WIFI.</li>
