@@ -43,12 +43,12 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li>Open Putty and under Host Name type in the IP of your Giga. Should be on the right top corner of the Klipper Screen when connected to WIFI.</li>
 <li>Click Connect, and log in with the supplied Credentials.   
 <i><br />Username: Elegoo
-<br />Password: giga3dp</li></i>font>
+<br />Password: giga3dp</li></i>
 <li>Run these 3 commands 1 at a time, it will take some time to complete the Beacon Klipper Install.
  <i><br />cd ~
 <br />git clone https://github.com/beacon3d/beacon_klipper.git
 <br />./beacon_klipper/install.sh</li>
-<br /></i>font>
+<br /></i>
  <li>Do not close putty, we will go back to this shortly</li>
 <li>Navigate to FLuidd via your web browser using the IP from before</li>
 <li>Choose the Configure Icon on the left, and click printer.cfg to started editing. (I recommend you backup this file to be safe before you begin)</li>
@@ -73,9 +73,10 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br />x_offset: -1 # update with offset from nozzle on your machine
 <br />y_offset: -18 # update with offset from nozzle on your machine
 <br />mesh_main_direction: x
-<br />mesh_runs: 2</i>font>
+<br />mesh_runs: 2</i>
 <li>Open Up Putty and Run the following Command
- <i><br />ls /dev/serial/by-id</li></i>font>
+ <i><br />ls /dev/serial/by-id</li></i>
+ 
 <li>Copy the USB line that contains Beacon, mine for example was "usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00"</li>
 <li>Paste the USB info in the beacon section under Serial:(It Should look like /dev/serial/by-id/YOUR COPIED USB DATA HERE)</li>
 <li>Find the section [stepper_z]</li>
