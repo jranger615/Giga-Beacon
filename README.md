@@ -43,9 +43,49 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li>Click Connect, and log in with the supplied Credentials.   
 <br />Username: Elegoo
 <br />Password: giga3dp</li>
-<li>Run these 3 commands 1 at a time
+<li>Run these 3 commands 1 at a time, it will take some time to complete the Beacon Klipper Install.
 <br />cd ~
 <br />git clone https://github.com/beacon3d/beacon_klipper.git
 <br />./beacon_klipper/install.sh</li>
-
+<br />
+ <li>Do not close putty, we will go back to this shortly</li>
+<li>Navigate to FLuidd via your web browser using the IP from before</li>
+<li>Choose the Configure Icon on the left, and click printer.cfg to started editing. (I recommend you backup this file to be safe before you begin)</li>
+ <li> Comment Out the PROBE Section Compeltly with #. It Should look similar to this:
+<br /> #####################################################################
+<br /># 	Probe
+<br /> #####################################################################
+<br />#[probe]
+<br />#pin:^mcu1:gpio11
+<br />#x_offset: -14.0
+<br />#y_offset: -29.5
+<br />#z_offset: 0.0
+<br />#speed: 5.0
+<br />#samples: 2
+<br />#samples_result: median
+<br />#sample_retract_dist: 3.0
+<br />#samples_tolerance: 0.05
+<br />#samples_tolerance_retries:4</li>
+<li>Add the following below the commented out Probe Section:
+<br />[beacon]
+<br />serial: /dev/serial/by-id/usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00 #This will be REPLACED
+<br />x_offset: -1 # update with offset from nozzle on your machine
+<br />y_offset: -18 # update with offset from nozzle on your machine
+<br />mesh_main_direction: x
+<br />mesh_runs: 2
+<li>Open Up Putty and Run the following Command
+<br />ls /dev/serial/by-id</li>
+<li>Copy the USB line that contains Beacon, mine for example was "usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00"</li>
+<li>Paste the USB info in the beacon section under Serial:(It Should look like /dev/serial/by-id/YOUR COPIED USB DATA HERE)</li>
+<li>Find the section [stepper_z]</li>
+<li>Comment Out with #:
+<br />#endstop_pin:PC11
+<br />#position_endstop:0 
+<li>Add the Following at the end of stepper_z
+<br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
+<br />homing_retract_dist: 0 # beacon needs this to be set to 0  </li>
+ <li>Under [stepper_z1] comment out with #:
+<br /> #endstop_pin:PC10
+ <br />Add:
+ <br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop</li>
 </ul>
