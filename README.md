@@ -118,16 +118,16 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li> Click Save, and Close Again></li>
 <Li>Run the following Command (Or Power off/on your Giga Again - This is usually most effective)
 <br /> systemctl restart klipper</Li> 
- <li>From Fluidd, chose the Command Icon</li>
- <li> We have already homed our system previously so we will calibrated the beacon, by running command:
-  <i><b><br /> BEACON_CALIBRATE</li></i></b>
- <li>You must now run commands and lower your Z like your setting the Z offset with the Supplied Metal Feeler or a Piece of Paper
- <br /> The Command is : TESTZ Z=-0.01  (Lower it as little or increase it to move it down faster until it barely touches the Feeler or Piece  of Paper
- <li>Once you have your Z Set, Remove the paper/feeler, and Run Command:  <i><b>ACCEPT</i></b> (It should state calibrating Beacon)</li>
- <li> <i><b>Run Command: SAVE_CONFIG</i></b></li>
- <Li>Now Heat the Primary BED your using and Re-Run the Beacon_calibrate Process</Li>
- <li> Once Completed and You have ran Save_Config your can run a bed Calibration.
- <br /> Command:  <i><b>BED_MESH_CALIBRATE</i></b> </li>
- </li>
- <h3> This should now complete your configuration of the Beacon. Set your Z offset via for printing and start testing away.</H3>
+<li>From Fluidd, chose the Command Icon</li>
+<li> We have already homed our system previously so we will calibrated the beacon, by running command:
+<i><b><br /> BEACON_CALIBRATE</li></i></b>
+<li>You must now run commands and lower your Z like your setting the Z offset with the Supplied Metal Feeler or a Piece of Paper
+<br /> The Command is : TESTZ Z=-0.01  (Lower it as little or increase it to move it down faster until it barely touches the Feeler or Piece  of Paper
+<li>Once you have your Z Set, Remove the paper/feeler, and Run Command:  <i><b>ACCEPT</i></b> (It should state calibrating Beacon)</li>
+<li> <i><b>Run Command: SAVE_CONFIG</i></b></li>
+<Li>Now Heat the Primary BED your using and Re-Run the Beacon_calibrate Process</Li>
+<li> Once Completed and You have ran Save_Config your can run a bed Calibration.
+<br /> Command:  <i><b>BED_MESH_CALIBRATE</i></b> </li>
+</li>
+<h3> This should now complete your configuration of the Beacon. Set your Z offset via for printing and start testing away.</H3>
 </ul>
