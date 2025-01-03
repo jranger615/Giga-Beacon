@@ -22,7 +22,7 @@ Remove the Pobe, 2 screws attach it to the metal casing, then trace the wire to 
  <li>Remove the 2 LED Screws and pull it to the side</li>
  <li>Use a Dremel with Cut off Wheel to cut the metal casing as shows in the RED Outlines in the picture</li>
  <li>Using the cut off wheel Cut the Plastic Cover as shown in the picture
- <p></p><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Plastic%20Cover%20Mod.jpg?raw=true"/></li>p></li>
+ <p><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Plastic%20Cover%20Mod.jpg?raw=true"/></p>/li>
  <li>Cut a hole in the top of the Plastic Casing big enough to fit the USB Cable End through, it can also be snaked through near the fan.</li>
  <li>Run the USB through the Cable Chain to the hot end location, fish it through the plastic cover, and down where the LED Use to be</li>
  <li>Mount the USB on the Adapter with 2 M3 Screw</li>
