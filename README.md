@@ -19,7 +19,7 @@ Beacon Install Quick Start Guide - This was used for reference in below configs
 <h2>Things to Print</h2>
 Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/STL/Giga%20Beacon%20Adapter.stl">Giga Beacon Adapter.stl</a>
 <br />You will need 6 m3x4 Heat Inserts. The LED Relocation bracket insers should installed from the bottom
-<br /><img src="https://github.com/user-attachments/assets/a4b1091f-e894-47d4-8b68-01195215e51c"/>
+<img src="https://github.com/user-attachments/assets/a4b1091f-e894-47d4-8b68-01195215e51c"/>
 <ul>
 <li>ABS(Recommend)</li>
 <li>.16 line height</li>
