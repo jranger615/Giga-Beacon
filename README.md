@@ -8,7 +8,7 @@ You will need 6 m3x4 Heat Insers. The LED Relocation side mount are inserted fro
 <ul>
 <li>.16 line height</li>
 <li>3 Walls</li>
-<li>O4 Top/Bottom Layers</li>
+<li>4 Top/Bottom Layers</li>
 </ul>
 
 <h2>Hot End Modifications</h2>
