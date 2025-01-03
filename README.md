@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/93804f33-2fc6-4fdc-bc21-9b3e94921d5a
 <br />https://docs.beacon3d.com/quickstart/ 
 <h2>Things to Print</h2>
 Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/STL/Giga%20Beacon%20Adapter.stl">Giga Beacon Adapter.stl</a>
-<br />You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted from the bottom
+<br />You will need 6 m3x4 Heat Inserts. The LED Relocation bracket insers should installed from the bottom
 <br /><img src="https://github.com/user-attachments/assets/a4b1091f-e894-47d4-8b68-01195215e51c"/>
 <ul>
 <li>ABS(Recommend)</li>
