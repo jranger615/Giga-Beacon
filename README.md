@@ -12,9 +12,6 @@ You will need 6 m3x4 Heat Insers. The LED Relocation side mount are inserted fro
 </ul>
 
 <h2>Hot End Modifications</h2>
-Remove the Hot End from the Printer(4 M3 Screws, 2 front, 2 back)
-Remove the Case by 2 M3 Screws attaching it
-Remove the Pobe, 2 screws attach it to the metal casing, then trace the wire to the board and fish the wire out of the casing
 <ul>
 <li>Remove the Hot End from the Printer(4 M3 Screws, 2 front, 2 back)</li>
 <li>Remove the Case by 2 M3 Screws attaching it</li>
