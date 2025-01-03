@@ -1,6 +1,6 @@
 # Giga-Beacon
-I highly recommed getting Likes Lab Standoffs for this, otherwise you will need to do a lot of adjusting and get your bed Level for this to work. Out of the box, they are not level at all.
-
+I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
+https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 
 <h2>Things to Print</h2>
 Download Print Giga Beacon Adapter.stl in ABS(Recommend)
