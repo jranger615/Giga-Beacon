@@ -11,6 +11,8 @@ https://github.com/user-attachments/assets/93804f33-2fc6-4fdc-bc21-9b3e94921d5a
 <h2>Things to Print</h2>
 Download & Print Giga Beacon Adapter.stl in ABS(Recommend)
 You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted from the bottom
+<img src="https://github.com/user-attachments/assets/a4b1091f-e894-47d4-8b68-01195215e51c"/>
+
 <ul>
 <li>.16 line height</li>
 <li>3 Walls</li>
