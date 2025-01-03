@@ -26,7 +26,8 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br /><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Hot%20End%20Mod%20Completed.jpg?raw=true"/></li>
 <li>Using the cut off wheel Cut the Plastic Cover as shown in the picture
 <br /><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Plastic%20Cover%20Mod.jpg?raw=true"/></li>
-<li>Cut a hole in the top of the Plastic Casing big enough to fit the USB Cable End through, it can also be snaked through near the fan.</li>
+<li>Cut a hole in the top of the Plastic Casing big enough to fit the USB Cable End through, it can also be snaked through near the fan.
+<br /><img src="https://github.com/jranger615/Giga-Beacon/blob/main/photos/USB-Hole.jpg?raw=true"/></li>
 <li>Run the USB through the Cable Chains to the hot end location, fish it through the plastic cover, and down where the LED Use to be</li>
 <li>Mount the USB on the Adapter with 2 M3 Screw</li>
 <li>Mount the Adapter to the stock Sensor Location using 2 M3 Screw, make sure it is tight fitting against the side metal case near the LED. This helps make sure its flat</li>
