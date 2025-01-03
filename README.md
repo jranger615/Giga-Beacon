@@ -86,8 +86,8 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
  <i><b><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
 <br />homing_retract_dist: 0 # beacon needs this to be set to 0</i></b>  </li>
  <li>Under [stepper_z1] comment out with #:
- <i><b><br /> #endstop_pin:PC10</i></b><li>
- <li>Add:
+ <i><b><br /> #endstop_pin:PC10</i></b></li>
+ <li>Add Under [stepper_z1] :
  <i><b><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop</i></b></li>
  <li>Find the Safe_z_home section and make it as follows:
   <i><b><br />  [safe_z_home]
