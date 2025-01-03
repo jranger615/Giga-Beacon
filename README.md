@@ -23,14 +23,15 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
  <li>Using the cut off wheel Cut the Plastic Cover as shown in the picture
  <p><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Plastic%20Cover%20Mod.jpg?raw=true"/></p></li>
  <li>Cut a hole in the top of the Plastic Casing big enough to fit the USB Cable End through, it can also be snaked through near the fan.</li>
- <li>Run the USB through the Cable Chain to the hot end location, fish it through the plastic cover, and down where the LED Use to be</li>
+ <li>Run the USB through the Cable Chains to the hot end location, fish it through the plastic cover, and down where the LED Use to be</li>
  <li>Mount the USB on the Adapter with 2 M3 Screw</li>
  <li>Mount the Adapter to the stock Sensor Location using 2 M3 Screw, make sure it is tighter fitting again the side metal case near the LED. This helps make sure its flat</li>
  <Li>Attach the USB to the Beacon, and secure the beacon to the Adapter with 2 M3 Screw
   <p><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Beacon-Mounted.jpg?raw=true"/>
  <img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Beacon%20Mounted-Front.jpg?raw=true"/></p>
  </Li>
- <li>ReMount your Hot End to the Printer</ki>
+ <li>ReMount your Hot End to the Printer</li>
+ <li> PLug the USB into the Front Port on the Giga</li>
 </ul>
  
 <h2>Beacon Install/Configuration File Modifications</h2>
@@ -112,5 +113,16 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li> Click Save, and Close Again></li>
 <Li>Run the following Command (Or Power off/on oyur Giga Again - This is usually most effective)
 <br /> systemctl restart klipper</Li> 
- 
+ <li>From Fluidd, chose the Command Icon</li>
+ <li> We have alreadyed homed our system preivously so we will calibrated the beacon, by running command:
+ <br /> BEACON_CALIBRATE</li>
+ <li>You must now run commands and lower your Z like your setting the Z offset with the Supplied Metal Feeler or a Piece of Paper
+ <br /> The Command is : TESTZ Z=-0.01  (Lower it as little or increase it to move it down faster until it barely touches the Feeler or Piece  of Paper
+ <li>Once you have your Z Set, Remove the paper/feeler, and Run Command: ACCEPT (It should state calibrating Beacon)</li>
+ <li>Run Command: SAVE_CONFIG</li>
+ <Li>Now Heat the Primary BED your using and Re-Run the Beacon_calibrate Process</Li>
+ <li> Once Completed and You have ran Save_Config your can run a bed Calibration.
+ <br /> Commad: BED_MESH_CALIBRATE </li>
+ </li>
+ <h3> This should now complete your configuration of the Beacon. Set your Z offset via for printing and start testing away.</H3>
 </ul>
