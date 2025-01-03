@@ -3,15 +3,15 @@
 
 https://github.com/user-attachments/assets/93804f33-2fc6-4fdc-bc21-9b3e94921d5a
 
-
+<p></p>
 <h2>Things to Consider</h2>
-<br />I highly recommend getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
+I highly recommend getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
 <br />https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 <br />I also highly recommend the standoffs for use with Beacon 
 <br />https://www.lukeslabonline.com/collections/elegoo/products/elegoo-giga-standoffs-aluminum
 
 <h2>Refefrence Material</h2>
-<br />Beacon Install Quick Start Guide - This was used for reference in below configs
+Beacon Install Quick Start Guide - This was used for reference in below configs
 <br />https://docs.beacon3d.com/quickstart/ 
 <h2>Things to Print</h2>
 Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/STL/Giga%20Beacon%20Adapter.stl">Giga Beacon Adapter.stl</a>
