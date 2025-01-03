@@ -1,8 +1,9 @@
 # Giga-Beacon
  <i><b><H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3></i></b>
 
- <br />I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
+<br />I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
 https://www.lukeslabonline.com/products/beacon?variant=49920272597293
+<br />
 <br />Beacon Install Quick Start Guide https://docs.beacon3d.com/quickstart/ - This was used for refence in below configs
 <h2>Things to Print</h2>
 Download & Print Giga Beacon Adapter.stl in ABS(Recommend)
