@@ -10,10 +10,12 @@ I highly recommend getting your Beacon from Lukes Lab so you can get the 5M USB 
 <br />I also highly recommend the standoffs for use with Beacon 
 <br />https://www.lukeslabonline.com/collections/elegoo/products/elegoo-giga-standoffs-aluminum
 <p></p>
+
 <h2>Refefrence Material</h2>
 Beacon Install Quick Start Guide - This was used for reference in below configs
 <br />https://docs.beacon3d.com/quickstart/ 
 <p></p>
+
 <h2>Things to Print</h2>
 Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/STL/Giga%20Beacon%20Adapter.stl">Giga Beacon Adapter.stl</a>
 <br />You will need 6 m3x4 Heat Inserts. The LED Relocation bracket insers should installed from the bottom
@@ -25,6 +27,7 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <li>4 Top/Bottom Layers</li>
 </ul>
 <p></p>
+
 <h2>Hot End Modifications</h2>
 <ul>
 <li>Remove the Hot End from the Printer(4 M3 Screws, 2 front, 2 back)</li>
