@@ -4,7 +4,7 @@ https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 
 <h2>Things to Print</h2>
 Download & Print Giga Beacon Adapter.stl in ABS(Recommend)
-You will need 6 m3x4 Heat Insers. The LED Relocation side mount are inserted from the bottom
+You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted from the bottom
 <ul>
 <li>.16 line height</li>
 <li>3 Walls</li>
@@ -32,3 +32,19 @@ You will need 6 m3x4 Heat Insers. The LED Relocation side mount are inserted fro
  <li>ReMount your Hot End to the Printer</ki>
 </ul>
  
+<h2>Configuration File Modifications</h2>
+***Before you do this, make sure you have your printer turned on and HOME ALL****
+<ul>
+<li>On your Klipper Screen, Click Settings > Advanced Settings > Root</ul>li>
+<li>Follow the Prompts to Root your Klipper and Allow SSH. Note the Username and PW</li>
+<li>On your Pc Download Putty - https://www.putty.org/ </li>
+<li>Open Putty and under Host Name type in the IP of your Giga. Should be on the right top corner of the Klipper Screen when connected to WIFI.</li>
+<li>Click Connect, and log in with the supplied Credentials.   
+<p>Username: Elegoo</p>
+<p>Password: giga3dp</p></li>
+<li>Run these 3 commands 1 at a time
+cd ~
+git clone https://github.com/beacon3d/beacon_klipper.git
+./beacon_klipper/install.sh</li>
+
+</ul>
