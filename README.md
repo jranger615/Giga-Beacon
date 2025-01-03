@@ -129,7 +129,7 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <br />managed_services: klipper
 <br />info_tags:
 <br />desc=Beacon Surface Scanner</i></b> </li>
-<li> Click Save, and Close Again></li>
+<li> Click Save, and Close Again</li>
 <Li>Run the following Command (Or Power off/on your Giga Again - This is usually most effective)
 <br /> systemctl restart klipper</Li> 
 <li>From Fluidd, chose the Command Icon</li>
