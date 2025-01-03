@@ -28,7 +28,11 @@ Remove the Pobe, 2 screws attach it to the metal casing, then trace the wire to 
  <li>Run the USB through the Cable Chain to the hot end location, fish it through the plastic cover, and down where the LED Use to be</li>
  <li>Mount the USB on the Adapter with 2 M3 Screw</li>
  <li>Mount the Adapter to the stock Sensor Location using 2 M3 Screw, make sure it is tighter fitting again the side metal case near the LED. This helps make sure its flat</li>
- <Li>Attach the USB to the Beacon, and secure the beacon to the Adapter with 2 M3 Screw</Li>
+ <Li>Attach the USB to the Beacon, and secure the beacon to the Adapter with 2 M3 Screw
+  <p><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Hot-End%20Modification.jpg?raw=true"/>
+ <img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Hot%20End%20Mod%20Completed.jpg?raw=true"/></p>
+ 
+ </Li>
  <ki>ReMount your Hot End to the Printer</ki>
 </ul>
  
