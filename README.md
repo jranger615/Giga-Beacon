@@ -3,7 +3,9 @@ I highly recommed getting Likes Lab Standoffs for this, otherwise you will need 
 
 
 <h2>Things to Print</h2>
-Giga Beacon Adapter
+Giga Beacon Adapter.stl
+.16 line height
+
 
 <h2>Hot End Modifications</h2>
 Giga Beacon Adapter
