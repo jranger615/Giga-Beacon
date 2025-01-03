@@ -9,10 +9,11 @@ I highly recommend getting your Beacon from Lukes Lab so you can get the 5M USB 
 <br />https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 <br />I also highly recommend the standoffs for use with Beacon 
 <br />https://www.lukeslabonline.com/collections/elegoo/products/elegoo-giga-standoffs-aluminum
-
+<br />
 <h2>Refefrence Material</h2>
 Beacon Install Quick Start Guide - This was used for reference in below configs
 <br />https://docs.beacon3d.com/quickstart/ 
+<br />
 <h2>Things to Print</h2>
 Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/STL/Giga%20Beacon%20Adapter.stl">Giga Beacon Adapter.stl</a>
 <br />You will need 6 m3x4 Heat Inserts. The LED Relocation bracket insers should installed from the bottom
@@ -44,7 +45,7 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <li>Re-Mount your Hot End to the Printer</li>
 <li> PLug the USB into the Front Port on the Giga</li>
 </ul>
- 
+<br />
 <h2>Beacon Install/Configuration File Modifications</h2>
 ***Before you do this, turn on your printaer and HOME ALL****
 <ul>
@@ -56,7 +57,7 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <i><b><br />Username: Elegoo
 <br />Password: giga3dp</li></i></b>
 <li>Run these 3 commands 1 at a time, it will take some time to complete the Beacon Klipper Install.
- <i><b><br />cd ~
+<i><b><br />cd ~
 <br />git clone https://github.com/beacon3d/beacon_klipper.git
 <br />./beacon_klipper/install.sh</li>
 <br /></i></b>
