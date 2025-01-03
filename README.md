@@ -1,5 +1,6 @@
 # Giga-Beacon
-I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
+<H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3>
+<br />I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
 https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 
 <h2>Things to Print</h2>
