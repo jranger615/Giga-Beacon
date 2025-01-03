@@ -43,12 +43,12 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li>Open Putty and under Host Name type in the IP of your Giga. Should be on the right top corner of the Klipper Screen when connected to WIFI.</li>
 <li>Click Connect, and log in with the supplied Credentials.   
 <i><b><br />Username: Elegoo
-<br />Password: giga3dp</li></i></b>font>
+<br />Password: giga3dp</li></i></b>
 <li>Run these 3 commands 1 at a time, it will take some time to complete the Beacon Klipper Install.
  <i><b><br />cd ~
 <br />git clone https://github.com/beacon3d/beacon_klipper.git
 <br />./beacon_klipper/install.sh</li>
-<br /></i></b>font>
+<br /></i></b>
  <li>Do not close putty, we will go back to this shortly</li>
 <li>Navigate to FLuidd via your web browser using the IP from before</li>
 <li>Choose the Configure Icon on the left, and click printer.cfg to started editing. (I recommend you backup this file to be safe before you begin)</li>
@@ -73,15 +73,15 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br />x_offset: -1 # update with offset from nozzle on your machine
 <br />y_offset: -18 # update with offset from nozzle on your machine
 <br />mesh_main_direction: x
-<br />mesh_runs: 2</i></b>font>
+<br />mesh_runs: 2</i></b>
 <li>Open Up Putty and Run the following Command
- <i><b><br />ls /dev/serial/by-id</li></i></b>font>
+ <i><b><br />ls /dev/serial/by-id</li></i></b>
 <li>Copy the USB line that contains Beacon, mine for example was "usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00"</li>
 <li>Paste the USB info in the beacon section under Serial:(It Should look like /dev/serial/by-id/YOUR COPIED USB DATA HERE)</li>
 <li>Find the section [stepper_z]</li>
 <li>Comment Out with #:
- <font color=”red″><br />#endstop_pin:PC11
-<br />#position_endstop:0 </i></b>font>
+<i><b><br />#endstop_pin:PC11
+<br />#position_endstop:0 </i></b>
 <li>Add the Following lines at the end of stepper_z
  <i><b><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
 <br />homing_retract_dist: 0 # beacon needs this to be set to 0</i></b>  </li>
@@ -94,7 +94,7 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
  <br /> home_xy_position: 405,205
  <br /> # speed: 150
  <br />  z_hop: 3          
- <br /> #z_hop_speed: 5</i></b>font></li>
+ <br /> #z_hop_speed: 5</i></b></li>
  <li> Click Save in the Top Right Corner, then close</li>
  <li>Open moonraker.cfg</li>
  <li>At the End Add the Following:
@@ -115,7 +115,7 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br /> systemctl restart klipper</Li> 
  <li>From Fluidd, chose the Command Icon</li>
  <li> We have alreadyed homed our system preivously so we will calibrated the beacon, by running command:
-  <i><b><br /> BEACON_CALIBRATE</li></i></b>font>
+  <i><b><br /> BEACON_CALIBRATE</li></i></b>
  <li>You must now run commands and lower your Z like your setting the Z offset with the Supplied Metal Feeler or a Piece of Paper
  <br /> The Command is : TESTZ Z=-0.01  (Lower it as little or increase it to move it down faster until it barely touches the Feeler or Piece  of Paper
  <li>Once you have your Z Set, Remove the paper/feeler, and Run Command:  <i><b>ACCEPT</i></b> (It should state calibrating Beacon)</li>
