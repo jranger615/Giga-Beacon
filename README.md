@@ -1,8 +1,9 @@
 # Giga-Beacon
+<h2>This design requires the Beacon H - Normal Variant</h2>
  <i><b><H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3></i></b>
 
 https://github.com/user-attachments/assets/93804f33-2fc6-4fdc-bc21-9b3e94921d5a
-
+<h2>Things to Consider</h2>
 <br />
 <h2>Things to Consider</h2>
 I highly recommend getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
