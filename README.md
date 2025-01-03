@@ -3,7 +3,7 @@ I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB f
 https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 
 <h2>Things to Print</h2>
-Download Print Giga Beacon Adapter.stl in ABS(Recommend)
+Download & Print Giga Beacon Adapter.stl in ABS(Recommend)
 You will need 6 m3x4 Heat Insers. The LED Relocation side mount are inserted from the bottom
 <ul>
 <li>.16 line height</li>
