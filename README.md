@@ -43,8 +43,8 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br />Username: Elegoo
 <br />Password: giga3dp</li>
 <li>Run these 3 commands 1 at a time
-cd ~
-git clone https://github.com/beacon3d/beacon_klipper.git
-./beacon_klipper/install.sh</li>
+<br />cd ~
+<br />git clone https://github.com/beacon3d/beacon_klipper.git
+<br />./beacon_klipper/install.sh</li>
 
 </ul>
