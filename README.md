@@ -31,8 +31,7 @@ Remove the Pobe, 2 screws attach it to the metal casing, then trace the wire to 
  <Li>Attach the USB to the Beacon, and secure the beacon to the Adapter with 2 M3 Screw
   <p><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Beacon-Mounted.jpg?raw=true"/>
  <img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Beacon%20Mounted-Front.jpg?raw=true"/></p>
- 
  </Li>
- <ki>ReMount your Hot End to the Printer</ki>
+ <li>ReMount your Hot End to the Printer</ki>
 </ul>
  
