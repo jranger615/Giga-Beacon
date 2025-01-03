@@ -1,6 +1,6 @@
 # Giga-Beacon
  <i><b><H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3></i></b>
-
+https://github.com/jranger615/Giga-Beacon/blob/main/photos/20250102_184217_1.mp4
 <br />I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
 <br />https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 <br />
