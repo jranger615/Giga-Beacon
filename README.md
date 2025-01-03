@@ -88,4 +88,29 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br /> #endstop_pin:PC10
  <br />Add:
  <br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop</li>
+ <li>Find the Safe_z_home section and make it as follows:
+ <br />  [safe_z_home]
+ <br /> home_xy_position: 405,205
+ <br /> # speed: 150
+ <br />  z_hop: 3          
+ <br /> #z_hop_speed: 5</li>
+ <li> Click Save in the Top Right Corner, then close</li>
+ <li>Open moonraker.cfg</li>
+ <li>At the End Add the Following:
+<br />[update_manager beacon]
+<br />type: git_repo
+<br />channel: dev
+<br />path: ~/beacon_klipper
+<br />origin: https://github.com/beacon3d/beacon_klipper.git
+<br />env: ~/klippy-env/bin/python
+<br />requirements: requirements.txt
+<br />install_script: install.sh
+<br />is_system_service: False
+<br />managed_services: klipper
+<br />info_tags:
+<br />desc=Beacon Surface Scanner </li>
+<li> Click Save, and Close Again></li>
+<Li>Run the following Command (Or Power off/on oyur Giga Again - This is usually most effective)
+<br /> systemctl restart klipper</Li> 
+ 
 </ul>
