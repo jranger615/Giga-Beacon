@@ -76,8 +76,8 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br />mesh_runs: 2</i></b>
 <li>Open Up Putty and Run the following Command
  <i><b><br />ls /dev/serial/by-id</li></i></b>
-<li>Copy the USB line that contains Beacon, mine for example was "usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00"</li>
-<li>Paste the USB info in the beacon section under Serial:(It Should look like /dev/serial/by-id/YOUR COPIED USB DATA HERE)</li>
+<li>Copy the USB line that contains Beacon, mine for example was <i><b>"usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00"</b></i></li>
+<li>Paste the USB info in the beacon section under Serial:(It Should look like above but <i><b>/dev/serial/by-id/YOUR COPIED USB DATA HERE)</b></i></li>
 <li>Find the section [stepper_z]</li>
 <li>Comment Out with #:
 <i><b><br />#endstop_pin:PC11
