@@ -80,7 +80,7 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li>Paste the USB info in the beacon section under Serial:(It Should look like /dev/serial/by-id/YOUR COPIED USB DATA HERE)</li>
 <li>Find the section [stepper_z]</li>
 <li>Comment Out with #:
- <font color=”#ff0000″><br />#endstop_pin:PC11
+ <font color=”red″><br />#endstop_pin:PC11
 <br />#position_endstop:0 </font>font>
 <li>Add the Following lines at the end of stepper_z
  <font color=”#ff0000″><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
