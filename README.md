@@ -40,8 +40,8 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li>On your Pc Download Putty - https://www.putty.org/ </li>
 <li>Open Putty and under Host Name type in the IP of your Giga. Should be on the right top corner of the Klipper Screen when connected to WIFI.</li>
 <li>Click Connect, and log in with the supplied Credentials.   
-<p>Username: Elegoo</p>
-<p>Password: giga3dp</p></li>
+<br>Username: Elegoo</br>
+<br>Password: giga3dp</br></li>
 <li>Run these 3 commands 1 at a time
 cd ~
 git clone https://github.com/beacon3d/beacon_klipper.git
