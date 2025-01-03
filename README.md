@@ -56,7 +56,9 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br /></i></b>
  <li>Do not close putty, we will go back to this shortly</li>
 <li>Navigate to FLuidd via your web browser using the IP from before</li>
-<li>Choose the Configure Icon on the left, and click printer.cfg to started editing. (I recommend you backup this file to be safe before you begin)</li>
+<li>Choose the Configure Icon on the left, and click printer.cfg to started editing. (I recommend you backup this file to be safe before you begin)
+<br />![image](https://github.com/user-attachments/assets/8ca86775-1220-49ff-ae42-e1b08427cf48)
+</li>
  <li> Comment Out the PROBE Section Compeltly with #. It Should look similar to this:
  <i><b><br /> #####################################################################
 <br /># 	Probe
