@@ -3,7 +3,7 @@
 
 https://github.com/user-attachments/assets/93804f33-2fc6-4fdc-bc21-9b3e94921d5a
 
-<p></p>
+<br />
 <h2>Things to Consider</h2>
 I highly recommend getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
 <br />https://www.lukeslabonline.com/products/beacon?variant=49920272597293
