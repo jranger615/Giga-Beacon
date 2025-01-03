@@ -1,5 +1,5 @@
 # Giga-Beacon
-<H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3>
+ <font color=”#ff0000″><H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3></font>
 <br />I highly recommed getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. 
 https://www.lukeslabonline.com/products/beacon?variant=49920272597293
 
@@ -42,18 +42,18 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <li>On your Pc Download Putty - https://www.putty.org/ </li>
 <li>Open Putty and under Host Name type in the IP of your Giga. Should be on the right top corner of the Klipper Screen when connected to WIFI.</li>
 <li>Click Connect, and log in with the supplied Credentials.   
-<br />Username: Elegoo
-<br />Password: giga3dp</li>
+ <font color=”#ff0000″><br />Username: Elegoo
+<br />Password: giga3dp</li></font>font>
 <li>Run these 3 commands 1 at a time, it will take some time to complete the Beacon Klipper Install.
-<br />cd ~
+ <font color=”#ff0000″><br />cd ~
 <br />git clone https://github.com/beacon3d/beacon_klipper.git
 <br />./beacon_klipper/install.sh</li>
-<br />
+<br /></font>font>
  <li>Do not close putty, we will go back to this shortly</li>
 <li>Navigate to FLuidd via your web browser using the IP from before</li>
 <li>Choose the Configure Icon on the left, and click printer.cfg to started editing. (I recommend you backup this file to be safe before you begin)</li>
  <li> Comment Out the PROBE Section Compeltly with #. It Should look similar to this:
-<br /> #####################################################################
+ <font color=”#ff0000″><br /> #####################################################################
 <br /># 	Probe
 <br /> #####################################################################
 <br />#[probe]
@@ -66,39 +66,39 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br />#samples_result: median
 <br />#sample_retract_dist: 3.0
 <br />#samples_tolerance: 0.05
-<br />#samples_tolerance_retries:4</li>
+<br />#samples_tolerance_retries:4</li></font> 
 <li>Add the following below the commented out Probe Section:
-<br />[beacon]
+ <font color=”#ff0000″><br />[beacon]
 <br />serial: /dev/serial/by-id/usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00 #This will be REPLACED
 <br />x_offset: -1 # update with offset from nozzle on your machine
 <br />y_offset: -18 # update with offset from nozzle on your machine
 <br />mesh_main_direction: x
-<br />mesh_runs: 2
+<br />mesh_runs: 2</font>font>
 <li>Open Up Putty and Run the following Command
-<br />ls /dev/serial/by-id</li>
+ <font color=”#ff0000″><br />ls /dev/serial/by-id</li></font>font>
 <li>Copy the USB line that contains Beacon, mine for example was "usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00"</li>
 <li>Paste the USB info in the beacon section under Serial:(It Should look like /dev/serial/by-id/YOUR COPIED USB DATA HERE)</li>
 <li>Find the section [stepper_z]</li>
 <li>Comment Out with #:
-<br />#endstop_pin:PC11
-<br />#position_endstop:0 
-<li>Add the Following at the end of stepper_z
-<br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
-<br />homing_retract_dist: 0 # beacon needs this to be set to 0  </li>
+ <font color=”#ff0000″><br />#endstop_pin:PC11
+<br />#position_endstop:0 </font>font>
+<li>Add the Following lines at the end of stepper_z
+ <font color=”#ff0000″><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
+<br />homing_retract_dist: 0 # beacon needs this to be set to 0</font>  </li>
  <li>Under [stepper_z1] comment out with #:
-<br /> #endstop_pin:PC10
+ <font color=”#ff0000″><br /> #endstop_pin:PC10
  <br />Add:
- <br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop</li>
+ <br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop</font></li>
  <li>Find the Safe_z_home section and make it as follows:
- <br />  [safe_z_home]
+  <font color=”#ff0000″><br />  [safe_z_home]
  <br /> home_xy_position: 405,205
  <br /> # speed: 150
  <br />  z_hop: 3          
- <br /> #z_hop_speed: 5</li>
+ <br /> #z_hop_speed: 5</font>font></li>
  <li> Click Save in the Top Right Corner, then close</li>
  <li>Open moonraker.cfg</li>
  <li>At the End Add the Following:
-<br />[update_manager beacon]
+ <font color=”#ff0000″><br />[update_manager beacon]
 <br />type: git_repo
 <br />channel: dev
 <br />path: ~/beacon_klipper
@@ -109,20 +109,20 @@ You will need 6 m3x4 Heat Inserts. The LED Relocation side mount are inserted fr
 <br />is_system_service: False
 <br />managed_services: klipper
 <br />info_tags:
-<br />desc=Beacon Surface Scanner </li>
+<br />desc=Beacon Surface Scanner</font> </li>
 <li> Click Save, and Close Again></li>
 <Li>Run the following Command (Or Power off/on oyur Giga Again - This is usually most effective)
 <br /> systemctl restart klipper</Li> 
  <li>From Fluidd, chose the Command Icon</li>
  <li> We have alreadyed homed our system preivously so we will calibrated the beacon, by running command:
- <br /> BEACON_CALIBRATE</li>
+  <font color=”#ff0000″><br /> BEACON_CALIBRATE</li></font>font>
  <li>You must now run commands and lower your Z like your setting the Z offset with the Supplied Metal Feeler or a Piece of Paper
  <br /> The Command is : TESTZ Z=-0.01  (Lower it as little or increase it to move it down faster until it barely touches the Feeler or Piece  of Paper
- <li>Once you have your Z Set, Remove the paper/feeler, and Run Command: ACCEPT (It should state calibrating Beacon)</li>
- <li>Run Command: SAVE_CONFIG</li>
+ <li>Once you have your Z Set, Remove the paper/feeler, and Run Command:  <font color=”#ff0000″>ACCEPT</font> (It should state calibrating Beacon)</li>
+ <li> <font color=”#ff0000″>Run Command: SAVE_CONFIG</font></li>
  <Li>Now Heat the Primary BED your using and Re-Run the Beacon_calibrate Process</Li>
  <li> Once Completed and You have ran Save_Config your can run a bed Calibration.
- <br /> Commad: BED_MESH_CALIBRATE </li>
+ <br /> Commad:  <font color=”#ff0000″>BED_MESH_CALIBRATE</font> </li>
  </li>
  <h3> This should now complete your configuration of the Beacon. Set your Z offset via for printing and start testing away.</H3>
 </ul>
