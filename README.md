@@ -34,8 +34,9 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <li>Remove the Case by 2 M3 Screws attaching it</li>
 <li>Remove the Pobe, 2 screws attach it to the metal casing, then trace the wire to the board and fish the wire out of the casing</li>
 <li>Remove the 2 LED Screws and pull it to the side</li>
-<li>Use a Dremel with Cut off Wheel to cut the metal casing as shows in the RED Outlines in the picture<br /><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Hot-End%20Modification.jpg?raw=true"/></p>
-<br /><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Hot%20End%20Mod%20Completed.jpg?raw=true"/></li>
+<li>Use a Dremel with Cut off Wheel to cut the metal casing as shows in the RED Outlines in the picture
+<br /><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Hot-End%20Modification.jpg?raw=true"/></p>
+<img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Hot%20End%20Mod%20Completed.jpg?raw=true"/></li>
 <li>Using the cut off wheel Cut the Plastic Cover as shown in the picture
 <br /><img src ="https://github.com/jranger615/Giga-Beacon/blob/main/photos/Plastic%20Cover%20Mod.jpg?raw=true"/></li>
 <li>Cut a hole in the top of the Plastic Casing big enough to fit the USB Cable End through, it can also be snaked through near the fan.
