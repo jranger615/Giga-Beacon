@@ -1,5 +1,6 @@
 # Giga-Beacon
-<h2>This design requires the Beacon H - Normal Variant</h2>
+> [!IMPORTANT]
+> <h2>This design requires the Beacon H - Normal Variant</h2>
 
  > [!CAUTION]
  <i><b><H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3></i></b>
