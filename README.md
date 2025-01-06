@@ -56,7 +56,10 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 </ul>
 <br />
 <h2>Beacon Install/Configuration File Modifications</h2>
-<b>****Before you do this, turn on your printaer and HOME ALL.*****</b>
+
+> [!IMPORTANT]
+><b>Before you do this, turn on your printaer and HOME ALL.</b>
+
 <ul>
 <li>On your Klipper Screen, Click Settings > Advanced Settings > Root</li>
 <li>Follow the Prompts to Root your Klipper and Allow SSH. Note the Username and PW</li>
