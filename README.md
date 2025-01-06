@@ -55,8 +55,6 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <li> PLug the USB into the Front Port on the Giga</li>
 </ul>
 <br />
-> [!TIP]
-> <b>****Before you do this, turn on your printaer and HOME ALL.*****</b>
 <h2>Beacon Install/Configuration File Modifications</h2>
 <b>****Before you do this, turn on your printaer and HOME ALL.*****</b>
 <ul>
