@@ -2,8 +2,8 @@
 > [!IMPORTANT]
 > <h2>This design requires the Beacon H - Normal Variant</h2>
 
- > [!CAUTION]
- <i><b><H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3></i></b>
+> [!CAUTION]
+> <i><b><H3>I am not responsible for any damage to your device, perform these modification at your own RISK!</H3></i></b>
 
 https://github.com/user-attachments/assets/93804f33-2fc6-4fdc-bc21-9b3e94921d5a
 
@@ -57,7 +57,7 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <br />
 <h2>Beacon Install/Configuration File Modifications</h2>
 > [!IMPORTANT]
->***Before you do this, turn on your printaer and HOME ALL****
+>Before you do this, turn on your printaer and HOME ALL
 <ul>
 <li>On your Klipper Screen, Click Settings > Advanced Settings > Root</li>
 <li>Follow the Prompts to Root your Klipper and Allow SSH. Note the Username and PW</li>
