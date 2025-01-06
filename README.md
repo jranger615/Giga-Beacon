@@ -56,6 +56,7 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 </ul>
 <br />
 <h2>Beacon Install/Configuration File Modifications</h2>
+> [!IMPORTANT]
 ***Before you do this, turn on your printaer and HOME ALL****
 <ul>
 <li>On your Klipper Screen, Click Settings > Advanced Settings > Root</li>
