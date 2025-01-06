@@ -66,37 +66,48 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <i><b><br />Username: Elegoo
 <br />Password: giga3dp</li></i></b>
 <li>Run these 3 commands 1 at a time, it will take some time to complete the Beacon Klipper Install.
-<i><b><br />cd ~
-<br />git clone https://github.com/beacon3d/beacon_klipper.git
-<br />./beacon_klipper/install.sh</li>
-<br /></i></b>
+  
+  ```ruby
+cd ~
+git clone https://github.com/beacon3d/beacon_klipper.git
+./beacon_klipper/install.sh
+```
+  
 <li>Do not close putty, we will go back to this shortly</li>
 <li>Navigate to Fluidd via your web browser using the IP from before</li>
 <li>Choose the Configure Icon on the left, and click printer.cfg to started editing. (I recommend you backup this file to be safe before you begin)
 <br /><img src ="https://github.com/user-attachments/assets/8ca86775-1220-49ff-ae42-e1b08427cf48"</img>
 </li>
 <li> Comment Out the PROBE Section Completely with #. It Should look similar to this:
-<i><b><br /> #####################################################################
-<br /># 	Probe
-<br /> #####################################################################
-<br />#[probe]
-<br />#pin:^mcu1:gpio11
-<br />#x_offset: -14.0
-<br />#y_offset: -29.5
-<br />#z_offset: 0.0
-<br />#speed: 5.0
-<br />#samples: 2
-<br />#samples_result: median
-<br />#sample_retract_dist: 3.0
-<br />#samples_tolerance: 0.05
-<br />#samples_tolerance_retries:4</li></i></b> 
+  
+  ```ruby
+#####################################################################
+# 	Probe
+ #####################################################################
+#[probe]
+#pin:^mcu1:gpio11
+#x_offset: -14.0
+#y_offset: -29.5
+#z_offset: 0.0
+#speed: 5.0
+#samples: 2
+#samples_result: median
+#sample_retract_dist: 3.0
+#samples_tolerance: 0.05
+#samples_tolerance_retries:4</li></i></b>
+```
+
 <li>Add the following below the commented out Probe Section:
- <i><b><br />[beacon]
-<br />serial: /dev/serial/by-id/usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00 #This will be REPLACED
-<br />x_offset: -1 # update with offset from nozzle on your machine
-<br />y_offset: -18 # update with offset from nozzle on your machine
-<br />mesh_main_direction: x
-<br />mesh_runs: 2</i></b>
+  
+  ```ruby
+[beacon]
+serial: /dev/serial/by-id/usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00 #This will be REPLACED
+x_offset: -1 # update with offset from nozzle on your machine
+y_offset: -18 # update with offset from nozzle on your machine
+mesh_main_direction: x
+mesh_runs: 2
+```
+
 <li>Open Up Putty and Run the following Command
  <i><b><br />ls /dev/serial/by-id</li></i></b>
 <li>Copy the USB line that contains Beacon, mine for example was <i><b>"usb-Beacon_Beacon_RevH_5BB811315157355957202020FF0E0F24-if00"</b></i></li>
