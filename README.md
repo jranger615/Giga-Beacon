@@ -79,9 +79,9 @@ Download & Print <a href="https://github.com/jranger615/Giga-Beacon/blob/main/ST
 <i><b><br /> #####################################################################
 <br /># 	Probe
 <br /> #####################################################################
-> <br />#[probe]
-> <br />#pin:^mcu1:gpio11
-> <br />#x_offset: -14.0
+<br />#[probe]
+<br />#pin:^mcu1:gpio11
+<br />#x_offset: -14.0
 <br />#y_offset: -29.5
 <br />#z_offset: 0.0
 <br />#speed: 5.0
