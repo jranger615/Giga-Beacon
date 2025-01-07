@@ -172,7 +172,7 @@ desc=Beacon Surface Scanner</i></b> </li>
 
 <li> Click Save, and Close Again</li>
 <Li>Run the following Command (Or Power off/on your Giga Again - This is usually most effective)
-<br /> systemctl restart klipper</Li> 
+<br /><b><i>systemctl restart klipper</b></i></Li> 
 <li>From Fluidd, chose the Command Icon</li>
 <li><i><b>Run: G28 X Y</i></b></li>
 <li><i><b>Run: G0 X605 Y205 to center it on Bed 1</i></b> </li> 
