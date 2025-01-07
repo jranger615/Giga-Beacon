@@ -185,5 +185,9 @@ desc=Beacon Surface Scanner</i></b> </li>
 <li> Once Completed and You have ran Save_Config your can run a bed Calibration.
 <br /> Command:  <i><b>BED_MESH_CALIBRATE</i></b> </li>
 </li>
-<h3> This should now complete your configuration of the Beacon. Set your Z offset via for printing and start testing away.</H3>
+<h3> You’re now ready to print.</H3>
 </ul>
+
+> [!TIP]
+>On the first print, you’ll want to use babystepping via the GUI to fine adjust the first layer offset.
+>After the print finishes, the offset can be automatically applied to the model with the <b>Z_OFFSET_APPLY_PROBE</b> command for future prints.
