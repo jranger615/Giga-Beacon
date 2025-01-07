@@ -117,36 +117,59 @@ mesh_runs: 2
 <li>Paste the USB info in the beacon section under Serial:(It Should look like above but <i><b>/dev/serial/by-id/YOUR COPIED USB DATA HERE)</b></i></li>
 <li>Find the section [stepper_z]</li>
 <li>Comment Out with #:
-<i><b><br />#endstop_pin:PC11
-<br />#position_endstop:0 </i></b>
-<li>Add the Following lines at the end of stepper_z
- <i><b><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
-<br />homing_retract_dist: 0 # beacon needs this to be set to 0</i></b>  </li>
-<li>Under [stepper_z1] comment out with #:
-<i><b><br /> #endstop_pin:PC10</i></b></li>
+ 
+  ```ruby
+#endstop_pin:PC11
+#position_endstop:0
+ ```
+  
+   <li>Add the Following lines at the end of stepper_z
+   
+  ```ruby
+endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
+homing_retract_dist: 0 # beacon needs this to be set to 0</i>
+ ```
+
+Under [stepper_z1] comment out with #:
+  ```ruby
+ #endstop_pin:PC10
+ ```
+
 <li>Add Under [stepper_z1] :
-<i><b><br />endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop</i></b></li>
+  
+  ```ruby
+  endstop_pin: probe:z_virtual_endstop # use beacon as virtual endstop
+  ```
+
 <li>Find the Safe_z_home section and make it as follows:
-<i><b><br />  [safe_z_home]
-<br /> home_xy_position: 405,205
-<br /> # speed: 150
-<br />  z_hop: 3          
-<br /> #z_hop_speed: 5</i></b></li>
+  
+  ```ruby
+  [safe_z_home]
+home_xy_position: 405,205
+# speed: 150
+z_hop: 3          
+#z_hop_speed: 5
+  ```
+
 <li> Click Save in the Top Right Corner, then close</li>
 <li>Open moonraker.cfg</li>
 <li>At the End Add the Following:
-<i><b><br />[update_manager beacon]
-<br />type: git_repo
-<br />channel: dev
-<br />path: ~/beacon_klipper
-<br />origin: https://github.com/beacon3d/beacon_klipper.git
-<br />env: ~/klippy-env/bin/python
-<br />requirements: requirements.txt
-<br />install_script: install.sh
-<br />is_system_service: False
-<br />managed_services: klipper
-<br />info_tags:
-<br />desc=Beacon Surface Scanner</i></b> </li>
+
+   ```ruby 
+[update_manager beacon]
+type: git_repo
+channel: dev
+path: ~/beacon_klipper
+origin: https://github.com/beacon3d/beacon_klipper.git
+env: ~/klippy-env/bin/python
+requirements: requirements.txt
+install_script: install.sh
+is_system_service: False
+managed_services: klipper
+info_tags:
+desc=Beacon Surface Scanner</i></b> </li>
+   ```
+
 <li> Click Save, and Close Again</li>
 <Li>Run the following Command (Or Power off/on your Giga Again - This is usually most effective)
 <br /> systemctl restart klipper</Li> 
