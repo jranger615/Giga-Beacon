@@ -184,7 +184,6 @@ desc=Beacon Surface Scanner</i></b> </li>
 <Li>Now Heat the Primary BED your using and Re-Run the Beacon_calibrate Process</Li>
 <li> Once Completed and You have ran Save_Config your can run a bed Calibration.
 <br /> Command:  <i><b>BED_MESH_CALIBRATE</i></b> </li>
-</li>
 <h3> You’re now ready to print.</H3>
 </ul>
 
