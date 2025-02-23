@@ -11,8 +11,6 @@ https://github.com/user-attachments/assets/93804f33-2fc6-4fdc-bc21-9b3e94921d5a
 <h2>Things to Consider</h2>
 I highly recommend getting your Beacon from Lukes Lab so you can get the 5M USB for the Giga. (Make sure to notify them you want the Type H Normal Variant)
 <br />https://www.lukeslabonline.com/products/beacon?variant=49920272597293
-<br />I also highly recommend the standoffs for use with Beacon 
-<br />https://www.lukeslabonline.com/collections/elegoo/products/elegoo-giga-standoffs-aluminum
 <p></p>
 
 <h2>Refefrence Material</h2>
