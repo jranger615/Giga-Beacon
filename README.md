@@ -1,3 +1,8 @@
+### If inclined to send a tip for my hard work:
+* Paypal: Jeff.b.ranger@gmail.com
+* Venmo: @Jeff-Ranger-1
+
+
 # Giga-Beacon
 > [!IMPORTANT]
 > <h2>This design requires the Beacon H - Normal Variant</h2>
